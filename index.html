@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Javier</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Inicio</a></li>
+            <li><a href="#cv-section">Mi CV</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>
+
+    <!-- Sección de bienvenida -->
+    <section id="welcome-section">
+        <div class="welcome-content">
+            <h1 id="typed-heading"></h1>
+            <p>Desarrollador Front-End y entusiasta de la programación</p>
+            <a href="#projects" class="btn">Ver Proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Mi CV -->
+    <section id="cv-section">
+        <div class="cv-content">
+            <a href="https://tusitio.com/mi-cv" target="_blank" class="btn btn-cv">Mi CV</a>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/jareigfa/" target="_blank" class="btn btn-social">LinkedIn</a>
+                <a href="https://github.com/jareigfa" target="_blank" class="btn btn-social">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de proyectos -->
+    <section id="projects">
+        <h2>Mis Proyectos</h2>
+        <div class="project-container">
+            <div class="project-tile">
+                <a href="https://codepen.io/jareigfa/full/ogNGYvG" target="_blank">
+                    <img src="https://www.dropbox.com/scl/fi/1o9nzdy5cewf0bavkel28/01-survey.jpg?rlkey=j9g1ffp8acj5i4xkl2dzpww8r&st=3uwjf5m5&raw=1" alt="Proyecto 1">
+                    <h3>Survey Form</h3>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://codepen.io/jareigfa/full/wBvrozb" target="_blank">
+                    <img src="https://www.dropbox.com/scl/fi/gz9e8pkjnc5u308dlc8q2/02-tribute.jpg?rlkey=jd6b4u78i35dthblx621f8gzl&st=dt04qwbn&raw=1" alt="Proyecto 2">
+                    <h3>Tribute Page</h3>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://codepen.io/jareigfa/full/mydBORQ" target="_blank">
+                    <img src="https://www.dropbox.com/scl/fi/k95sh03fz89v9qqaiggzh/03-docupage.jpg?rlkey=nh3w7ow1343igmu2cq8bm6vs8&st=hoayxqtm&raw=1" alt="Proyecto 3">
+                    <h3>Technical Documentation Page</h3>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://codepen.io/jareigfa/full/yyLzgqj" target="_blank">
+                    <img src="https://www.dropbox.com/scl/fi/mva8g0tyw0acqtvusf6e9/04-palindrome.jpg?rlkey=5gaqkox3lhzs8ynda88cqntm7&st=vnonax9a&raw=1" alt="Proyecto 4">
+                    <h3>Palindrome Checker</h3>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://codepen.io/jareigfa/full/MYWEJLq" target="_blank">
+                    <img src="https://www.dropbox.com/scl/fi/oip121nfzkmqpfwysbm6t/05-roman.jpg?rlkey=msjg6fmknmhirigeuj3bw3rj0&st=r3eblm82&raw=1" alt="Proyecto 5">
+                    <h3>Convertidor de Números Romanos</h3>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://codepen.io/jareigfa/full/NPWadVX" target="_blank">
+                    <img src="https://www.dropbox.com/scl/fi/2yjr0al8smy1z4s9bnpo0/06-pokemon.jpg?rlkey=edx6vh3r7xoxgmhy4safso755&st=ei129vv8&raw=1" alt="Proyecto 6">
+                    <h3>Pokemon Search App</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o deseas colaborar, no dudes en ponerte en contacto conmigo.</p>
+        <form action="#" method="post">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 by jareigfa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
